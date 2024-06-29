@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #9999;
+    font: 300 14px 'Poppins', sans-serif;
+}
+h1{
+    color: rgb(253, 253, 253);
+    font-size: 36px;
+}
+h2{
+    padding: 20px 0px;
+}
+.seccion {
+    padding: 10px 100px 10px 100px;
+    background-color: white;
+}
+
+#encabezado {
+    background-image: url(imagenes/imgfirma.png);
+    background-size: auto;
+    min-height: 100px;
+}
+
+#descripcion {
+    text-align: center;
+    padding: 20px 20px;
+}
+
+#contacto {
+    border-top: 1px solid #000000;
+}

@@ -1,0 +1,100 @@
+/*CSS General de elementos*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #222;
+    color: white;
+    font: 200 14px 'Poppins', sans-serif;
+}
+h2 {
+    font-size: 36px;
+    line-height: 36px;
+}
+h3{
+    color: #999;
+    font-size: 18px;
+    font-weight: 300ppx;
+}
+
+section{
+    padding: 10px 100px 10px 100px;
+
+}
+nav{
+    position: fixed;
+    background-color: #222;
+    border-bottom: 1px white;
+    padding-top: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+nav ul{
+    display: inline-block;
+}
+
+nav ul li{
+    padding-top: 12px;
+}
+
+p{
+    text-align: justify;
+}
+cite {
+    font-weight: 300px;
+}
+
+i{
+    font-size: 24px;
+}
+i:hover{
+    color: #ffc900;
+}
+
+a:any-link{
+    color: white;
+}
+a:-webkit-any{
+    color: white;
+}
+a:-moz-any-link{
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    float: left;
+    margin-right: 5px;
+}
+
+/*CSS ID's y Clases*/
+
+.hastag {
+    color: #ffc900;
+}
+
+#redessociales{
+    list-style: none;
+    margin-top: 20px;
+}
+
+#inicio{
+    background-image: url(imagenes/banner.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    min-height: 280px;
+    padding-top: 65px;
+}
+
+#experiencia {
+    background-color: white;
+    color: #222;
+}
+#portfolio {
+    border-top: 1px solid #ffc900;
+}
