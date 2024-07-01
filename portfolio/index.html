@@ -13,11 +13,11 @@
 <body>
     <nav>
         <ul>
-            <li>Sobre mi</li>
-            <li>Portfolio</li>
-            <li></li>
-            <li>Skills</li>
-            <li>Contactar</li>
+            <li><a href="#sobre mi">Sobre mi</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li class="logo"><img src="./imagenes/cascos.png" alt="logo de Luis"></li>
+            <li><a href="#experiencia">Skills</a></li>
+            <li><a href="#contactar">Contactar</a></li>
         </ul>
     </nav>
     <article>
@@ -27,17 +27,17 @@
         <h3 class="hastag">#programador</h3>
         <h3 class="hastag">#músico</h3>
         <ul id="redessociales">
-            <li><a href="https://open.spotify.com/intl-es" target="_blank"><i class="fa-brands fa-spotify"></i></a></li>
-            <li><i class="fa-brands fa-instagram"></i></li>
-            <li><i class="fa-brands fa-linkedin"></i></li>
-            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><a href="https://open.spotify.com/" target="_blank"><i class="fa-brands fa-spotify"></i></a></li>
+            <li><a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a></li>
         </ul>
     </section>
     <!--FIN Bloque de inicio-->
     <!--Bloque de sobre mí-->
     <section id="sobre mi">
         <h2>Sobre mí</h2>
-        <img src="./imagenes/rescalda.jpg" alt="Imagen de your name" height="250">
+        <img src="./imagenes/about-img_250.png" alt="Imagen de mi" height="250">
         <p>Soy <b>Guillem Vila</b> lorem ipsum dolor <span> amet consectetur adipisicing elit.</span> Ullam, porro laborum eligendi illum ipsam qui voluptates sequi! Quisquam in, quas voluptate ad ipsam rem architecto velit impedit delectus nostrum. Nisi!</p>
         <p><cite>Me gustan las motos los reinos de elfos y enanos.</cite></p>
     </section>
@@ -46,27 +46,43 @@
     <section id="portfolio">
         <h2>Portfolio</h2>
         <h3>Una mirada mas alla del texto</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th colspan="4">Ejemplos portfolio</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Musica</td>
-                    <td>Produccion</td>
-                    <td>Diseños</td>
-                    <td>Web</td>
-                </tr>
-                <tr>
-                    <td>Conciertos</td>
-                    <td>BSOs</td>
-                    <td>App</td>
-                    <td>Cartel</td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="filaportfolio">
+            <div class="card">
+                <video controls width="250">
+                    <source src="./media/intro_mastermindv2.webm" type="video/webm">
+                    <source src="./media/intro_mastermindv2.mp4" type="video/mp4">
+                </video>
+                <h3>musica</h3>
+                <h4>concierto benicassim</h4>
+                <div class="sep"></div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <div class="masinfo"><button type="button">MAS INFO</button></div>
+            </div>
+            <div class="card">
+                <iframe width="250" src="https://www.youtube.com/embed/cGvXAAw3Ikk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h3>musica</h3>
+                <h4>concierto benicassim</h4>
+                <div class="sep"></div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <div class="masinfo"><button type="button">MAS INFO</button></div>
+            </div>
+            <div class="card">
+                <img src="./imagenes/imagen_portfolio.png" alt="Portfolio 3">
+                <h3>musica</h3>
+                <h4>concierto benicassim</h4>
+                <div class="sep"></div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <div class="masinfo"><button type="button">MAS INFO</button></div>
+            </div>
+            <div class="card">
+                <img src="./imagenes/imagen_portfolio.png" alt="Portfolio 4">
+                <h3>musica</h3>
+                <h4>concierto benicassim</h4>
+                <div class="sep"></div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <div class="masinfo"><button type="button">MAS INFO</button></div>
+            </div>
+        </div>
     </section>
     <!--FIN BLoque portfolio-->
     <section id="experiencia">
@@ -74,6 +90,10 @@
         <h3>Lorem ipsum</h3>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse sapiente amet praesentium ut architecto quidem laboriosam, autem commodi corrupti, expedita illum asperiores similique unde odit voluptates debitis et repudiandae beatae!</p>
     </section>
+    <!--Bloque Portfolio-->
+    <section id="contactar">
+    </section>
+    <!--Fin bloque contactar-->
     </article>
     <footer></footer>
 </body>
