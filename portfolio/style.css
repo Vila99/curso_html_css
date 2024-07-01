@@ -122,10 +122,10 @@ footer ul li{
     color: #222;
 }
 #experiencia h2,#portfolio h2{
-    text-align: center;
+    text-align: left;
 }
 #experiencia h3,#portfolio h3{
-    text-align: center;
+    text-align: left;
     margin-bottom: 30px;
 }
 #portfolio {
